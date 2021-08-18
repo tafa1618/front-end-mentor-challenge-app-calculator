@@ -1,0 +1,144 @@
+/*************** font family *************/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/*------------------- Variables -------------------------------*/
+
+:root {
+  /*                  Colors  */
+
+/*                 Primary    */
+
+--strongCyan: hsl(172, 67%, 45%);
+
+/****                      Neutral *                             */
+
+--VeryDarkCyan: hsl(183, 100%, 15%);
+--darkGrayishCyan: hsl(186, 14%, 43%);
+--DarkkGrayishCyan: hsl(184, 14%, 56%);
+--lightGrayishCyan: hsl(185, 41%, 84%);
+--lighttGrayishCyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: var(--lightGrayishCyan);
+  font-family: 'Space Mono', monospace;
+  
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 40px;
+  background:var(--darkGrayishCyan);
+  color: var(--white);
+}
+
+
+/*  main section ------------- */
+
+.main{
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.splitter{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 70px;
+  bottom: 0;
+  letter-spacing: 5px;
+}
+
+.main-right{
+  background-color: var(--VeryDarkCyan);
+  color: var(--white);
+  position: relative;
+  height: 230px;
+  margin: 10px 0 10px;
+  border-radius: 5px;
+}
+
+.main-left{
+  
+}
+
+#header-search {
+  display: inline-block; 
+  /* width: 200px; 
+  height: 32px; */
+  background: var(--lightGrayishCyan); color: white; 
+  font-size: 12pt; padding: 4px  4px; vertical-align: middle;
+}
+#search-icon {
+  position: relative; right: 28px;
+  fill: white; width: 24px; height: 24px;
+  vertical-align: middle; cursor: pointer;
+}
+
+.btn-tip-1{
+  background-color: var(--VeryDarkCyan);
+  color: var(--White);
+  border-radius: 0 !important;
+}
+.btn-tip-2{
+  position: relative;
+  background: var(--lighttGrayishCyan);
+  border-radius: 0 !important;
+}
+
+.reset{
+  text-align: center;
+  position: relative;
+  align-items: center;
+  margin-top: 40px;
+  width: 200px;
+  background: var(--strongCyan);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*  main section ------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- attribution section -----------*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--lighttGrayishCyan);
+}
+
+/* ----------- end of attribution section -----------*/
